@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">asdasdasd</string>
+    <string name="app_name">Color picker</string>
 
     <string name="dialog_select">Select</string>
     <string name="dialog_message">My message</string>

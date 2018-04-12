@@ -1,11 +1,10 @@
-package com.example.i333373.asdasdasd;
+package com.example.i333373.colorpicker;
 
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;

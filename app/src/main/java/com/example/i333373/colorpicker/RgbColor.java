@@ -1,4 +1,4 @@
-package com.example.i333373.asdasdasd;
+package com.example.i333373.colorpicker;
 
 /**
  * Created by i333373 on 2018. 04. 05..
