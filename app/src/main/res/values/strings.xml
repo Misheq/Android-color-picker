@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">asdasdasd</string>
+
+    <string name="dialog_select">Select</string>
+    <string name="dialog_message">My message</string>
+    <string name="dialog_title">Select color</string>
+</resources>

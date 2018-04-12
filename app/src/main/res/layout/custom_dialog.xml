@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color Preview"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/iv_colorview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_red_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Red value"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <SeekBar
+        android:id="@+id/sb_red_value"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:progress="122"
+        android:maxHeight="2dp"
+        android:minHeight="2dp"
+        android:thumbTint="#ff0000"
+        android:progressDrawable="@drawable/red_seekbar"
+        android:min="0"
+        android:max="255"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_green_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Green value"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <SeekBar
+        android:id="@+id/sb_green_value"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:progress="0"
+        android:maxHeight="2dp"
+        android:minHeight="2dp"
+        android:thumbTint="#37692a"
+        android:progressDrawable="@drawable/green_seekbar"
+        android:min="0"
+        android:max="255"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_blue_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue value"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <SeekBar
+        android:id="@+id/sb_blue_value"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:progress="0"
+        android:maxHeight="2dp"
+        android:minHeight="2dp"
+        android:thumbTint="#0000ff"
+        android:progressDrawable="@drawable/blue_seekbar"
+        android:min="0"
+        android:max="255"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+</LinearLayout>
